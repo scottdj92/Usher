@@ -4,6 +4,7 @@
   "description": "a slack bot to determine a movie for Fridays @ XT Boston",
   "main": "lib/usherbot.js",
   "scripts": {
+    "start": "node ./lib/usherbot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Scott Jones",
@@ -15,6 +16,8 @@
   },
   "repository": "https://github.com/scottdj92/Usher.git",
   "devDependencies": {
-    "redis": "^2.6.0-2"
+    "redis": "^2.6.0-2",
+    "redis-cli": "^1.0.2",
+    "redis-server": "0.0.3"
   }
 }
