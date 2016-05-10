@@ -15,6 +15,6 @@
   },
   "repository": "https://github.com/scottdj92/Usher.git",
   "devDependencies": {
-    "redis": "^2.6.0-2"
+    "pg": "^4.5.5"
   }
 }
