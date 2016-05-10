@@ -13,5 +13,8 @@
     "slackbots": "^0.5.1",
     "sqlite3": "^3.1.3"
   },
-  "repository": "https://github.com/scottdj92/Usher.git"
+  "repository": "https://github.com/scottdj92/Usher.git",
+  "devDependencies": {
+    "redis": "^2.6.0-2"
+  }
 }
