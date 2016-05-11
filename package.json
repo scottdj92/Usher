@@ -4,12 +4,14 @@
   "description": "a slack bot to determine a movie for Fridays @ XT Boston",
   "main": "lib/usherbot.js",
   "scripts": {
+    "start": "node ./lib/usherbot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Scott Jones",
   "license": "ISC",
   "dependencies": {
     "botkit": "^0.1.1",
+    "dotenv": "^2.0.0",
     "slackbots": "^0.5.1",
     "sqlite3": "^3.1.3"
   },
