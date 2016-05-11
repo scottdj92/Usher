@@ -4,7 +4,7 @@
   "description": "a slack bot to determine a movie for Fridays @ XT Boston",
   "main": "lib/usherbot.js",
   "scripts": {
-    "start": "node ./lib/usherbot.js",
+    "start": "node ./lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Scott Jones",

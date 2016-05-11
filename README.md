@@ -16,8 +16,9 @@ Before taking any steps you need to get a BOT API KEY from the Slack intergratio
 * run `which psql` which should return the location of psql
 * run `createdb 'whoami'` to produce the database
 * run `psql` to start postgrep clli
-* `CREATE DATABASE dbName`
-* run `\du` to check if any superuser role is present on the database (should be your user). If not run `CREATE ROLE "name" WITH LOGIN PASSWORD "password"`
+* `CREATE DATABASE dbName;`
+* Create a user by running `CREATE ROLE "name" WITH LOGIN PASSWORD "password";`
+* run `\du` to check if the role is there. 
 * `\q` to exit current database. 
 * run `psql dbName userName -h localhost` to enter cli for you new db
 * run `CREATE TABLE movies ( title varchar(80), votes int);` to create a table with the specified structure
