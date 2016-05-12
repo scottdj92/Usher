@@ -21,7 +21,7 @@ Before taking any steps you need to get a BOT API KEY from the Slack intergratio
 * run `\du` to check if the role is there. 
 * `\q` to exit current database. 
 * run `psql dbName userName -h localhost` to enter cli for you new db
-* run `CREATE TABLE movies ( title varchar(80), votes int);` to create a table with the specified structure
+* run `CREATE TABLE movies ( id SERIAL, title varchar(80), votes int);` to create a table with the specified structure
 
 4.) Run Bot
 * You need two environment variables, BOT_API_KEY, and PG_URL (url to hit database)
