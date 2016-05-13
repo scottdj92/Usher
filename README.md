@@ -47,4 +47,7 @@ Before taking any steps you need to get a BOT API KEY from the Slack intergratio
 	* For this project, `CREATE TABLE movies (id SERIAL, title VARCHAR(35), votes INT);` will create the same database
 3) Ensure your config variables match
 * Ensure that your heroku database URL and Slack API keys match up in your Heroku app dashboard
-4) Have fun
+4) Finally, deploy your code
+* You can deploy by commiting to the remote heroku master branch
+	* You do this by running `git push heroku master`
+	* You must have the Heroku Toolbelt to be able to hook into the Heroku remote branch
