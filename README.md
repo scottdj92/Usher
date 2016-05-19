@@ -31,6 +31,15 @@ Before taking any steps you need to get a BOT API KEY from the Slack intergratio
 * run `postgres -D /usr/local/var/postgres`
 * run `npm start`
 
+## Running the bot from heroku (run instance)
+* Running the bot
+	* log into the heroku instance from the project directory
+	* then type `heroku run:detached npm start`
+
+* Stopping the bot
+	* Dynos are the individual instances running from heroku. View them by using `heroku ps`
+	* Stopping an instance requires you to know the dyno name from ps and typing `heroku ps:stop (name)`
+
 ## Deploying
 * Deploying on Heroku is easy
 * Check to ensure that you have Postgresql by running `heroku pg:info`
@@ -54,12 +63,3 @@ Before taking any steps you need to get a BOT API KEY from the Slack intergratio
 * You can deploy by commiting to the remote heroku master branch
 	* You do this by running `git push heroku master`
 	* You must have the Heroku Toolbelt to be able to hook into the Heroku remote branch
-
-* Running the bot
-	* log into the heroku instance from the project directory
-	* then type `heroku run:detached npm start`
-
-* Stopping the bot
-	* Dynos are the individual instances running from heroku. View them by using `heroku ps`
-	* Stopping an instance requires you to know the dyno name from ps and typing `heroku ps:stop (name)`
-
